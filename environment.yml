@@ -1,0 +1,22 @@
+name: Housing_pricing
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - seaborn
+  - pytest
+  - pre-commit
+  - flake8
+  - lightgbm
+  - xgboost
+  - pip
+  - pip:
+      - streamlit
+      - fastapi
+      - uvicorn
+      - requests
+      - pydantic
+      - joblib
